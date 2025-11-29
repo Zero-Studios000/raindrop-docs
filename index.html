@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favicon.png" rel="icon" />
+<title>Documentation | Raindrop Block Theme</title>
+<meta name="description" content="Your ThemeForest item Name and description">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+<!-- Custom Color Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/color-red.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img class="logo-custom-size" src="assets/images/logo.png" alt="iDocs Template"/> </a> 
+		<span class="text-2 ml-2">v1.0</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">     
+            <li><a target="_blank" href="https://themeforest.net/user/zero-studios">Support</a></li>
+          </ul>
+        </div>
+        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+          <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="social-icons-dribbble"><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_theme_requirements">Theme Requirements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_plugin_installation">Plugin Installation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_theme_updates">Theme Updates</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_setup_home_and_blog_page">Setup Home and Blog Page</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_demo_import">Demo Import</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_use_a_child_theme">Use a Child Theme</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_block_editor">Block Editor</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_patterns">Patterns</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_block_styles">Block Styles</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_block_variations">Block Variations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_site_editor">Site Editor</a>
+			    <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_theme_styles">Theme Styles</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_templates">Templates</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_template_parts">Template Parts</a></li>
+          </ul>
+		    </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_navigation">Navigation</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_header">Header</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_footer">Footer</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_sidebar">Sidebar</a></li>
+          </ul>
+        </li>
+		    <li class="nav-item"><a class="nav-link" href="#idocs_pages">Pages</a></li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_woocommerce">WooCommerce</a></li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_slider">Slider</a></li>
+		    <li class="nav-item"><a class="nav-link" href="#idocs_localization">Localization</a></li>
+      </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="idocs_start">
+        <h1>Documentation</h1>
+        <h2>Raindrop Block Theme</h2>
+        <p class="lead">Thank you for purchasing our item from themeforest.</p>
+        <img class="img-fluid add-top-margin" src="assets/images/screenshots/Raindrop-Demo-11-27-2025_01_47_AM.png" alt="">
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong>Version:</strong> 1.0</li>
+					<li><strong>Author:</strong> <a href="https://themeforest.net/user/zero-studios" target="_blank">Zero Studios</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong class="font-weight-700">Created:</strong> 25 October, 2025</li>
+					<li><strong>Update:</strong> 25 October, 2025</li>
+				</ul>
+			</div>
+		</div>
+        <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please feel free to email via <a target="_blank" href="https://themeforest.net/user/zero-studios">Item Support Page</a>.</p>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Theme Requirements
+		============================ -->
+        <section id="idocs_theme_requirements">
+          <h2 class="heading-bold">Theme Requirements</h2>
+          <p class="lead">To install and use this theme, ensure your WordPress site meets the following requirements: <strong>WordPress version 6.4</strong> or higher and <strong>PHP version 7.4</strong> or above.</p>
+        </section>
+        
+		<hr class="divider">        
+
+        <!-- Installation
+		============================ -->
+        <section id="idocs_installation">
+          <h2 class="heading-bold">Installation</h2>
+          <p class="lead">Follow the steps below to activate your theme:</p>
+          <ol>
+            <li>After purchasing the theme, make sure to unzip the downloaded package first and find the theme zip file.</li>
+            <li>Log into your WordPress admin dashboard. In the dashboard, go to <code>Appearance → Themes</code>, where you’ll see an overview of available themes.</li>
+            <li>Click the <strong>Add New Theme</strong> button near the page title to start the theme installation process.</li>
+            <li>Next, on the Add Themes screen, you’ll find the <strong>Upload Theme</strong> button. Click it to reveal the upload options.<br>
+              Choose the theme ZIP file you downloaded earlier, then click Install Now to begin the installation.</li>
+            <li>When the theme is installed, a prompt will appear with an option to activate it immediately.<br>
+              Simply click the <strong>Activate</strong> link, and your new theme will be live, ready for you to customize and build out your site!</li>
+          </ol>
+        </section>
+        
+		<hr class="divider">
+	
+        <!-- Plugin Installation
+		============================ -->
+        <section id="idocs_plugin_installation">
+          <h2 class="heading-bold">Plugin Installation</h2>
+          <p>When the theme is activated a message will appear with all the required and recommended plugins.<br>
+            You can install all the required and recommended plugins from there.<br>
+            The plugins are required for the theme to function optimally.</p>
+        </section>
+        
+		<hr class="divider">    
+
+        <!-- Theme Updates
+		============================ -->
+        <section id="idocs_theme_updates">
+          <h2 class="heading-bold">Theme Updates</h2>
+          <p>You will be notified in the WordPress admin each time a new updated theme version is available.<br>
+            Install the update following instructions below.</p>
+          <h3>Automatic Theme Update</h3>
+          <p>You can get automatic theme updates with help of <a href="https://www.envato.com/lp/market-plugin/">Envato Market plugin</a>.<br>
+            <a href="https://www.youtube.com/watch?v=aPm3D78rJDY">Watch an instructional video on how to use the plugin</a>, or read a <a href="https://www.wpexplorer.com/envato-market-plugin-guide/">complete, illustrated instructions on how to use it.</a></p>
+          <p class="alert alert-info"><strong>Automatic update failed?</strong><br>
+            If automatic update fails for whatever reason, please update the theme manually!</p>
+          <h3>Manual Theme Update</h3>
+          <p>Download the theme ZIP package from where you've obtained it originally. Then follow the steps below:</p>
+          <h4 style="font-size: 20px; font-weight: bold;">Updating via WordPress dashboard</h4>  
+          <p>A simple way of doing a manual theme update is deleting and reinstalling the theme directly via WordPress dashboard.<br>
+            You can <a href="https://wptheming.com/2016/02/how-to-overwrite-a-theme/">read an article</a> or <a href="https://www.youtube.com/watch?v=W3ntxBYZhg4">watch a video</a> on how to do this.</p>
+          <h4 style="font-size: 20px; font-weight: bold;">Updating via FTP</h4>
+          <p>This is more advanced manual update procedure and you will need an FTP client (such as <a href="https://filezilla-project.org/">FileZilla</a>) to connect to your server:</p> 
+          <ol>
+            <li>Download the newest theme ZIP file from where you've obtained it and unpack the ZIP file on your computer.</li>
+            <li>Now you will need an <a href="https://filezilla-project.org/">FTP client</a> to connect to your server.</li>
+            <li>On your server navigate to <strong>WORDPRESS_FOLDER/wp-content/themes/</strong> folder.</li>
+            <li>Delete the existing <strong>raindrop</strong> folder (or create a backup just in case - you can do this simply by renaming the folder name by appending<br>
+              <strong>.backup</strong> to its name so it becomes <strong>raindrop.backup</strong>, for example).</li>
+            <li>Copy the unpacked theme <strong>raindrop</strong> folder from your computer (from step 1 above) into <strong>WORDPRESS_FOLDER/wp-content/themes/</strong> folder on your server.</li>  
+            <li>Log into your WordPress admin area and check the version of the theme in <code>Appearance → Themes</code>. Your theme should be updated now. (And you can delete the <strong>raindrop.backup</strong> folder from step 4 above.)</li>
+          </ol> 
+        </section>
+        
+		<hr class="divider">
+		        
+		<!-- Setup Home and Blog Page
+		============================ -->
+        <section id="idocs_setup_home_and_blog_page">
+          <h2 class="heading-bold">Setup Home and Blog Page</h2>
+          <p>Create a new page from <code>Pages > Add New</code>. Give a title, like <strong>‘Home’</strong>, add the elements and settings you wish and then publish it.<br>
+            Next, create another page with the title you want for your blog. You do not need any content for your main blog page.<br>
+            The next thing is to tell WordPress to use your pages appropriately. Go to <code>Settings > Reading</code> and set the <strong>‘Front page displays’</strong> to <strong>‘A static page’</strong>.<br>
+            Set the home page you just created as the <strong>‘Front page’</strong>, and the blog page you created as the <strong>‘Posts page’</strong> and save your changes.</p>
+          <p>Your Home and Blog pages are ready to go!</p>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250621005050.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250621005050.png" alt=""></a>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Demo Import
+		============================ -->
+        <section id="idocs_demo_import">
+          <h2 class="heading-bold">Demo Import</h2>
+          <p><code>Appearance → Import Demo Data</code></p>
+          <p>With the latest block theme features in WordPress, creating a page similar to the demo no longer requires uploading demo content. <br>
+            Instead, you can use pre-designed <strong>patterns</strong>, which are ready-made sections and layouts specifically crafted to match the demo style. <br>
+            More on that in the patterns section.</p>
+          <p>But the theme still provides a demo importer to generate all the pages automatically and adds product images. <br>
+            So you can use the demo importer if you don't want to create all the pages manually.</p>
+        </section>
+        
+		<hr class="divider">
+
+    <!-- Use a Child Theme
+		============================ -->
+        <section id="idocs_use_a_child_theme">
+          <h2 class="heading-bold">Use a Child theme</h2>
+          <p>If you need to make coding changes to the theme or WordPress itself, use child theming functionality.</p>
+          <p>This way you can update the parent (original) <strong>Raindrop</strong> theme without worrying about your custom code getting overwritten and lost. Your code is kept safe in your child theme.</p>
+          <p class="alert alert-info"><strong>Useful resources</strong> <br>
+            <a href="https://developer.wordpress.org/themes/advanced-topics/child-themes/">Child Themes Documentation</a></p>
+        </section>
+        
+		<hr class="divider">
+			
+		<!-- Block Editor
+		============================ -->
+        <section id="idocs_block_editor">
+          <h2 class="heading-bold">Block Editor</h2>
+          <p><strong>Raindrop</strong> is fully compatible with the WordPress block editor, offering support for wide alignment, custom color palettes, font sizes, and more. <br>
+            With the block editor, you can build visually captivating and high-performing websites featuring creative layouts—without the need for a page builder plugin. <br>
+            Explore our <a href="#">theme demo site</a> for inspiration and ideas on how to make the most of these powerful design options.</p>
+          <p class="alert alert-info"><strong>Useful resources:</strong><br>
+          <a href="https://wordpress.org/documentation/article/wordpress-block-editor/">How to use the block editor</a><br>
+          <a href="https://wordpress.org/documentation/article/site-editor/">How to use the site editor</a></p>  
+        </section>
+		
+		<hr class="divider">
+
+        <!-- Patterns
+		============================ -->
+        <section id="idocs_patterns">
+          <h2 class="heading-bold">Patterns</h2>
+          <p><code>Pages → + → Patterns → select category → choose pattern</code></p>
+          <p>Block Patterns are pre-designed groups of blocks that you can easily add to your posts and pages, then personalize with your own content. <br>
+            They simplify a combination of many blocks, allowing you to quickly build sections of your site without starting from scratch.</p>
+          <p class="alert alert-info"><strong>Useful resources:</strong><br>
+            <a href="https://learn.wordpress.org/tutorial/using-block-patterns/">How to use block patterns</a></p>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250621012616.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250621012616.png" alt=""></a>
+          <ol>
+            <li>On page/post edit screen (in block editor) click the block inserter button (the <strong>+</strong> button in the upper left corner of editor).</li>
+            <li>Switch to <strong>"Patterns"</strong> tab.
+              <p class="opacity-7">(Optional: click the Explore all patterns button at the bottom of the list of pattern categories to open block pattern inserter pop-up window.)</p></li>
+            <li>Choose a pattern category.</li>  
+            <li>Select a pattern you want to insert into your page/post content.</li>
+            <li>Edit the inserted pattern to your needs.</li>
+          </ol>  
+        </section>
+		
+		<hr class="divider">
+		
+		<!-- Block Styles
+		============================ -->
+        <section id="idocs_block_styles">
+          <h2 class="heading-bold">Block Styles</h2>
+          <p><code>select a block → styles tab → select style</code></p>
+		      <p class="lead">You can change the block appearance simply by choosing a preferred predefined style from block settings.</p>
+          <p><a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250621015834.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250621015834.png" alt=""></a></p>
+          <ol>
+            <li>Click the block in page/post content.</li>
+            <li>If block settings sidebar is not displayed, click the settings button in the upper right corner of the editor.</li>
+            <li>Make sure you are editing the block settings (choose <strong>"Block"</strong> tab).</li>
+            <li>In block settings click the <strong>styles</strong> tab.</li>
+            <li>Choose a block style you want to apply on the selected block. (If there is no list of styles available, the selected block does not support any block style.)</li>
+          </ol>
+        </section>
+		
+		<hr class="divider">
+		
+		<!-- Block Variations
+		============================ -->
+        <section id="idocs_block_variations">
+          <h2 class="heading-bold">Block Variations</h2>
+          <p><code>select a block → transform to variation → select variation</code></p>
+          <p class="lead">A block variation is a block preset with specific attributes and even inner blocks. You can use the block variations for image zoom effects for example.</p>
+          <div class="row align-items-start add-top-margin">
+            <div class="col">
+              <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250623205251.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250623205251.png" alt=""></a>
+            </div>
+            <div class="col">
+              <ol>
+                <li>Open the Block Inserter and search for the block variation.</li>
+                <li>Select the Block tab.</li>
+                <li>Choose the desired block variation from the list.</li>
+              </ol>
+            </div>
+          </div>  
+          <p class="add-top-margin">You can also select a block variation from the block sidebar.</p>
+          <div class="row align-items-start add-top-margin">
+            <div class="col">
+              <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250623215546.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250623215546.png" alt=""></a>
+            </div>
+            <div class="col">
+              <ol>
+                <li>Select a block.</li>
+                <li>Open the block sidebar.</li>
+                <li>Click on <strong>Transform to variation</strong>.</li>
+                <li>Choose the desired block variation.</li>
+              </ol>
+            </div>
+          </div> 
+		    </section>
+		
+		<hr class="divider">
+		
+        <!-- Site Editor
+		============================ -->
+        <section id="idocs_site_editor">
+          <h2 class="heading-bold">Site Editor</h2>
+          <p><code>admin dashboard → appearance → editor</code></p>
+          <p>Edit every aspect of your theme visually, using drag-&-drop block editor with no coding required. Create beautiful, customizable websites with a few clicks. <br>
+            Modify colors and layout widths, reusable template parts, or whole templates.</p>
+          <p class="alert alert-info"><strong>Useful resources:</strong><br>
+            <a href="https://wordpress.org/documentation/article/site-editor/">The site editor</a><br>
+            <a href="https://learn.wordpress.org/tutorial/intro-to-the-site-editor-and-template-editor/">Video about the site editor</a></p>  
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250623233025.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250623233025.png" alt=""></a>  
+        </section>
+        
+		<hr class="divider">
+		  
+		<!-- Theme Styles
+		============================ -->
+		<section id="idocs_theme_styles">
+		  <h2 class="heading-bold">Theme Styles</h2>
+      <p><code>Appearance → Editor → Styles</code></p>
+		  <p class="lead">Theme styles allow you to edit color, fonts, spacing and other style elements of the site.</p>
+		  <p class="alert alert-info"><strong>Useful resources:</strong> <br>
+        <a href="https://wordpress.org/documentation/article/styles-overview/">Theme styles overview</a><br>
+        <a href="https://learn.wordpress.org/lesson/customizing-theme-settings-colors-fonts-typography-and-layout/">Theme styles video</a></p>
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250623233936.png"><img class="img-fluid border add-top-margin img-custom-width" src="assets/images/screenshots/ScreenShot Tool -20250623233936.png" alt=""></a> 
+
+      <h3>Browse styles</h3>  
+      <p>There are pre-designed theme styles (including <strong>dark mode</strong>) that you can browse through and select, that will change the look of your site.</p>
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250623234328.png"><img class="img-fluid border add-top-margin img-custom-width" src="assets/images/screenshots/ScreenShot Tool -20250623234328.png" alt=""></a>
+
+      <h3>Typography</h3>
+      <p>Here you can change the settings of fonts (like changing the <strong>default font</strong>) or changing <strong>font size presets.</strong> <br>
+        You can also upload your own custom fonts including <strong>google fonts.</strong></p>
+      <p class="alert alert-info"><strong>Useful resources:</strong> <br>
+        <a href="https://learn.wordpress.org/lesson/making-the-most-of-the-font-library/">Font library</a></p>
+      <div class="row align-items-start add-top-margin">
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624220028.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250624220028.png" alt=""></a>
+          <p>Typograhpy settings.</p>
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624223446.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250624223446.png" alt=""></a>  
+          <p>Change typography settings for individual elements (like text, links, headings...).</p>   
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624223252.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250624223252.png" alt=""></a>  
+          <p>Uploud your custom fonts.</p>   
+        </div>
+      </div>          
+
+      <h3>Colors</h3>
+      <p>Theme applies a palette of colors throughout the site elements. You can modify each individual color in the palette, modify WordPress default color palette, and add your own custom colors.</p>
+      <div class="row align-items-start add-top-margin">
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624233212.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250624233212.png" alt=""></a>
+          <p>Color settings.</p>
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624233727.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250624233727.png" alt=""></a>  
+          <p>Change the default theme colors palette. You can also create your own custom color palette.</p>   
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624234220.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250624234220.png" alt=""></a>  
+          <p>Change colors for individual elements (like text, background, links...).</p>   
+        </div>
+      </div>
+
+      <h3>Layout</h3>
+      <p>In the layout section you can modify the <strong>content</strong> and <strong>wide width</strong> if needed. You can also adjust the padding and block spacing.</p> 
+      <p class="alert alert-info"><strong>Note that all of the changes you make are across the whole site.</strong></p> 
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250624234742.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250624234742.png" alt=""></a>
+
+      <h3>Individual Blocks</h3>
+      <p>Change settings for individual blocks.</p>  
+      <div class="row align-items-start add-top-margin">
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625000137.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250625000137.png" alt=""></a>
+          <p>Block settings.</p>
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625000651.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250625000651.png" alt=""></a>  
+          <p>Select a block.</p>   
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625000907.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250625000907.png" alt=""></a>  
+          <p>Change the blocks color, padding, margin, font size, etc...</p>   
+        </div>
+      </div>
+      <p class="add-top-margin">You can also change the same settings when editing a page in the block settings sidebar.</p>
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625002538.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250625002538.png" alt=""></a>
+
+		</section>
+		
+		<hr class="divider">
+		
+		<!-- Templates
+		============================ -->
+		<section id="idocs_templates">
+		  <h2 class="heading-bold">Templates</h2>
+      <p><code>Appearance → Editor → Templates → All templates</code></p>
+		  <p class="lead">Templates are how you decide where things are placed within your theme. They are also used by Pages to display their information and design.</p>
+		  <p class="alert alert-info"><strong>Useful resources:</strong><br>
+        <a href="https://developer.wordpress.org/themes/templates/">Templates documentation</a><br>
+        <a href="https://developer.wordpress.org/themes/templates/template-hierarchy/">Template hierarchy</a></p> 
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625003036.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625003036.png" alt=""></a> 
+      <p>From here you can edit individual templates or create your own templates.</p> 
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625003803 (1).png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625003803 (1).png" alt=""></a> 
+      <p>You can also edit templates from pages.</p>
+      <ol>
+        <li>Open the page sidebar.</li>
+        <li>Click on the template name.</li>
+        <li>Click on "Edit template".</li>
+        <li>You can also swap the template.</li>
+      </ol>
+		</section>
+		
+		<hr class="divider">
+		
+		<!-- Template Parts
+		============================ -->
+		<section id="idocs_template_parts">
+		<h2 class="heading-bold">Template Parts</h2>
+		<p><code>Appearance → Editor → Patterns → All template parts</code></p>
+		<p>Template parts are global areas of your website, such as site header, site footer, post comments area, or sidebars. <br>
+      They are sections reused in the theme templates. Updating the content of a template part <strong>will apply your updates to all of its occurrences across all templates at once.</strong></p>
+    <p class="alert alert-info">Using template parts is ideal for modifying global theme sections that repeat across multiple templates at once.</p>  
+    <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625005239.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625005239.png" alt=""></a>
+		</section>
+		
+		<hr class="divider">
+		
+        <!-- Navigation
+		============================ -->
+        <section id="idocs_navigation">
+          <h2 class="heading-bold">Navigation</h2>
+          <p class="lead">Navigation menu of your website contains links to pages, categories, other content, or custom links.</p>
+        </section>
+
+    <hr class="divider">    
+		  
+      <!-- Menu
+		  ============================ -->
+		  <section id="idocs_menu">
+        <h2 class="heading-bold">Menu</h2>
+        <p><code>Appearance → Menus</code></p>
+        <p>The Raindrop theme uses the <strong>Maxmegamenu plugin</strong> for its navigation menu. The plugin provides an easy way to create megamenus.</p>
+        <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625210225.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625210225.png" alt=""></a>
+        <p>It uses the old menu system. So you can create your menus here.</p>
+        <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625215331.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625215331.png" alt=""></a>
+        <p>You can also edit the look of the megamenu itself. Just go to <code>Mega Menu → Menu Themes</code></p>
+        <p class="alert alert-info"><strong>Useful resources:</strong><br>
+            <a href="https://www.megamenu.com/documentation/installation/?utm_source=free&utm_medium=settings&utm_campaign=pro">The Max Mega Menu Documentation</a><br>
+            <a href="https://codex.wordpress.org/WordPress_Menu_User_Guide">WordPress Menu User Guide</a></p> 
+        <p class="add-top-margin">If you don't need megamenus, you can also use the default <strong>navigation block</strong>. In the header simply just replace the <strong>megamenu block</strong> with the default <strong>navigation block</strong>.
+          Go to <code>Appearance → Editor → Patterns → Header</code></p>
+
+        <div class="row align-items-start add-top-margin">
+          <div class="col">
+            <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625225637.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250625225637.png" alt=""></a>
+            <p>Once the header template part is opened:</p>
+            <ol>
+              <li>Open the list view sidebar.</li>
+              <li>select the <strong>Max Mega Menu block</strong>.</li>
+              <li>Click on the three dots to open the menu.</li>
+              <li>Click on delete.</li>
+            </ol>
+          </div>
+          <div class="col">
+            <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625231947.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250625231947.png" alt=""></a>  
+            <p>Next open the block inserter, then select the <strong>Navigation block</strong> and put it in the same spot where the <strong>Max Mega Menu block</strong> was.</p>   
+          </div>
+      </div>  
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625233253 (1).png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625233253 (1).png" alt=""></a>
+      <p>If you have multiple menus you can switch them out from here.</p>
+      <ol>
+        <li>Select the <strong>Navigation block</strong></li>
+        <li>Select the menu tab.</li>
+        <li>Click on the three dots next to the Menu</li>
+        <li>Select a menu.</li>
+        <li>You can also import classic menus.</li>
+      </ol>
+      </section>
+          
+		  <hr class="divider">  
+
+		  <!-- Header
+		  ============================ -->
+		  <section id="idocs_header">
+        <h2 class="heading-bold">Header</h2>
+        <p><code>Appearance → Editor → Patterns → Header</code></p>
+        <p>The theme includes 4 different headers. You can change the header by going in to patterns (the theme also comes with a bottom header when in mobile view).</p>
+        <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250625235959.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250625235959.png" alt=""></a>
+        <p>To swap the header, first delete it, then select a header pattern to replace it.</p>
+
+        <h3>Edit the header</h3>
+        <p>To edit the header just select the block you want to edit.</p>
+        <div class="row align-items-start add-top-margin">
+          <div class="col">
+            <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626002457.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250626002457.png" alt=""></a>
+            <p>To change the site logo just click on <strong>replace</strong> and upload a different image.</p>
+          </div>
+          <div class="col">
+            <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626002939.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250626002939.png" alt=""></a>  
+            <p>Change the icon by clicking on <strong>replace</strong>, then upload a different image.</p>   
+          </div>
+          <div class="col">
+            <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626003311.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250626003311.png" alt=""></a>  
+            <p>You can also change the mini cart icon among other settings.</p>   
+          </div>
+        </div>
+
+      <h3>Sticky header</h3>
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626003920.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250626003920.png" alt=""></a>
+      <p>You can make the header sticky (it will always stay on top when scrolling).</p>
+      <ol>
+        <li>Open the list view sidebar.</li>
+        <li>Select the header name.</li>
+        <li>Click on the Position dropdown.</li>
+        <li>Select the <strong>Sticky position</strong>.</li>
+      </ol>
+
+      <h3>Transparent header</h3>
+      <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626005233.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250626005233.png" alt=""></a>
+      <p>You can also make the header transparent (that only applies on the front page).</p>
+      <ol>
+        <li>Open the list view sidebar.</li>
+        <li>Select the header name.</li>
+        <li>Click on the <strong>Styles tab</strong>.</li>
+        <li>Select the <strong>Transparent</strong> block style.</li>
+      </ol>
+      </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- Footer
+		  ============================ -->
+		  <section id="idocs_footer">
+        <h2 class="heading-bold">Footer</h2>
+        <p><code>Appearance → Editor → Patterns → Footer</code></p>
+        <p>The theme comes with 6 different footers. You can change the footer by going in to patterns.</p> 
+        <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626164121.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250626164121.png" alt=""></a>       
+        <p>To swap the footer, first delete it, then select a footer pattern to replace it.</p>
+
+        <h3>Edit the footer</h3>
+        <p>You can edit it the same way as the <a href="#idocs_header">header</a>. Just select a block you want to edit.</p>
+      </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- Sidebar
+		  ============================ -->
+      <section id="idocs_sidebar">
+        <h2 class="heading-bold">Sidebar</h2>
+        <p><code>Appearance → Editor → Patterns → All template parts → choose a sidebar</code></p>
+        <p>The theme provides multiple block patterns displaying a dedicated <strong>Sidebar</strong> template part. A template part was chosen for sidebar content management so you can edit the sidebar in one place and it will be updated everywhere the <strong>Sidebar</strong> template part is being used.</p>    
+        <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626230134.png"><img class="img-fluid border add-top-margin" src="assets/images/screenshots/ScreenShot Tool -20250626230134.png" alt=""></a>
+
+        <h3>Edit the sidebar</h3>
+        <p>You can edit it the same way as the <a href="#idocs_header">header</a>. Just select a block you want to edit.</p>
+
+        <h3>Insert the sidebar</h3>
+        <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250626232237.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250626232237.png" alt=""></a>
+        <p>To insert a sidebar go to a template, in this case the <strong>Blog Home template</strong> (<code>Appearance → Editor → Templates → Blog Home Template</code>):</p>
+        <ol>
+          <li>Open the <strong>block insetrer</strong>.</li>
+          <li>Search for the <strong>Sidebar block</strong>.</li>
+          <li>Insert it into the desired spot.</li>
+        </ol>
+        <p class="alert alert-info">You can also edit the sidebar from here.</p>
+      </section>
+        
+		<hr class="divider">
+		
+		<!-- Pages
+		============================ -->
+		<section id="idocs_pages">
+      <h2 class="heading-bold">Pages</h2>
+      <h3>Assign a template to a page</h3>
+      <div class="row align-items-start add-top-margin">
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250627002104.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250627002104.png" alt=""></a>
+        </div>
+        <div class="col">
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250627003842.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250627003842.png" alt=""></a>    
+        </div>
+      </div>
+      <ol>
+        <li>On the page/post edit screen open the settings sidebar.</li>
+        <li>Click on the Template name.</li> 
+        <li>Choose "Change template" from the list of options.</li> 
+        <li>Choose a desired template from the popup window and save your settings.</li>    
+      </ol>          
+    </section>
+        
+		<hr class="divider">
+        
+        <!-- WooCommerce
+		============================ -->
+        <section id="idocs_woocommerce">
+          <h2 class="heading-bold">WooCommerce</h2>
+          <p>WooCommerce is a plugin for your e-commerce website.</p>
+          <p class="alert alert-info"><strong>Useful resources</strong> <br>
+            <a href="https://woocommerce.com/documentation/woocommerce/">WooCommerce Documentation</a></p>
+
+          <h3>Change the Shop pattern</h3>
+          <p><code>Appearance → Editor → Templates → All templates → Product Catalog</code></p>
+          <p>The theme includes multiple shop patterns. To change the pattern:</p>
+          <ol>
+            <li>Open the list view sidebar.</li>
+            <li>Click on the three dots by the block name ("Products Left Sidebar").</li>
+            <li>Click on delete.</li>
+          </ol>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250627221550.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250627221550.png" alt=""></a>
+          <ol class="add-top-margin">
+            <li>Next open the block inserter.</li>
+            <li>Go to the patterns tab.</li>
+            <li>Select the pattern category "Raindrop Products".</li>
+            <li>Select a pattern.</li>
+            <li>Make sure tu put the new pattern in the same place as the previous pattern.</li>
+            <li>Don't forget to <strong>Save</strong> all the changes.</li>
+          </ol>
+          <div class="row align-items-start">
+            <div class="col">
+              <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250627225516.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250627225516.png" alt=""></a>
+            </div>
+            <div class="col">
+              <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250627230645 (1).png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250627230645 (1).png" alt=""></a>    
+            </div>
+          </div>
+          <p class="alert alert-info add-top-margin">Note that you have to this to all other shop templates (<strong>Products by Attribute, Products by Category and Products by Tag</strong>) aswell.</p>
+
+          <h3>Shop pattern settings</h3>
+          <p>To get more settings options you can turn off <strong>"Inherit query from template"</strong>.</p>
+          <ol>
+            <li>First select the <strong>"Product Collection"</strong> block.</li>
+            <li>Turn off the <strong>"Inherit query from template"</strong> setting.</li>
+          </ol>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250705002610.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250705002610.png" alt=""></a>
+          <p class="add-top-margin">After that a slider will appear in the block settings sidebar, where you can adjust the number of products that appear on the page.</p>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250705005021.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250705005021.png" alt=""></a>
+          <p class="alert alert-info add-top-margin">Note that you should only do this in the <strong>Product Catalog template</strong>.</p>
+          <p class="add-top-margin">To chnage the number of products that are displayed in all of the <strong>Product templates</strong> go to <code>Settings → Reading</code>. <br>
+            Then go to <strong>"Blog pages show at most"</strong> and change the value of how many posts (products) should be shown.</p>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250628003303.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250628003303.png" alt=""></a>  
+          <p class="alert alert-info add-top-margin">That setting will also apply to Blog pages.</p>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Slider
+		============================ -->
+        <section id="idocs_slider">
+          <h2 class="heading-bold">Slider</h2>
+          <p>The theme also comes with the <strong>Smart Slider</strong> plugin. You can create your own slides or you can import the Smart Slider demo data that comes with the theme.</p>
+          <p class="alert alert-info"><strong>Useful resources</strong><br>
+            <a href="https://smartslider.helpscoutdocs.com/?utm_campaign=smartslider3&utm_source=dashboard-documentation&utm_medium=smartslider-wordpress-free">Smart Slider Documentation</a></p>  
+          <p>First locate the <strong>"Smart Slider demo data"</strong> that comes with the theme.</p> 
+          <ol>
+            <li>Then go to Smart Slider in the admin side panel.</li>
+            <li>Next click on "Dashboard".</li>
+            <li>Click on <strong>"NEW PROJECT"</strong></li>
+          </ol> 
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250628010213.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250628010213.png" alt=""></a>
+          <p class="add-top-margin">After that a popup will appear. Click on <strong>"Or Import Your Own Files".</strong></p>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250628011355.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250628011355.png" alt=""></a>
+          <p class="add-top-margin">Lastly drag and drop the import file to where it says <strong>"Upload File"</strong>. Your Slider should now be importet.</p>
+          <a class="popup-img" href="assets/images/screenshots/ScreenShot Tool -20250628011728.png"><img class="img-fluid border" src="assets/images/screenshots/ScreenShot Tool -20250628011728.png" alt=""></a>
+        </section>
+		
+		<hr class="divider">
+		
+		<!-- Localization
+		============================ -->
+        <section id="idocs_localization">
+          <h2 class="heading-bold">Localization</h2>
+          <p>Every WordPress theme contains some texts that need to be translated into your language if you are building a non-English website. This theme if fully translation ready.</p> 
+          <p class="alert alert-info add-top-margin"><strong>Useful resources</strong> <br>
+            <a href="https://www.wpbeginner.com/wp-tutorials/how-to-install-wordpress-in-other-languages/">Install WordPress in your language</a>
+          </p>
+          <h3>Translate a theme</h3> 
+          <p><strong>Method 1: Using <a href="https://poedit.net/">Poedit</a></strong></p>  
+          <ol>
+            <li>Make a copy of the original <strong>raindrop/languages/raindrop.pot</strong> file.</li>
+            <li>Rename the copied file now: add hyphen followed with <a href="https://translate.wordpress.org/">your language code locale</a>, and change the file extension to "po". For example, the German file would be named <strong>raindrop-de_DE.po</strong>.</li>
+            <li>Use <a href="https://poedit.net/">Poedit</a> to translate the file and export (save) translation in "mo" file format.</li>
+            <li>Upload translated <strong>raindrop-de_DE.mo</strong> and <strong>raindrop-de_DE.po</strong> file into your WordPress languages directory, into <strong>themes</strong> folder (such as <strong>/wp-content/languages/themes/raindrop-de_DE.mo</strong> (if the <strong>themes</strong> folder does not exist in your WordPress languages directory, create it).</li>
+          </ol> 
+          <p class="alert alert-info add-top-margin">Only do that in the <strong>child theme</strong>, otherwise all custom translation files will be deleted when you update the theme !</p>
+          <p class="add-top-margin"><strong>Method 2: Using <a href="https://wordpress.org/plugins/loco-translate/">Loco Translate</a></strong></p>
+          <p>If you would like to translate the theme directly in your WordPress dashboard you need to use a specialized plugin. Check out <a href="https://wordpress.org/plugins/loco-translate/">Loco Translate</a> plugin and instructions on how to use it at <a href="https://localise.biz/wordpress/plugin/beginners">beginner's guide</a> and <a href="https://localise.biz/wordpress/plugin/overview">technical overview</a>. <br>
+            You can also use <strong>Loco Translate</strong> plugin to translate your plugins directly in your WordPress admin area.</p>
+        </section>
+		
+		<hr class="divider">
+
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+        <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <p class="text-center">Copyright &copy; 2020 <a href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a>. All Rights Reserved.</p>
+	  <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a>.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
